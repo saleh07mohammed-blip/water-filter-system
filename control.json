@@ -1,5 +1,6 @@
 {
-  "system_status": "active",
+  "system_status": "active", 
   "latest_version": "1.0.0",
-  "emergency_shutdown": false
+  "emergency_shutdown": true,
+  "shutdown_message": "🔧 النظام تحت الصيانة - سيعود خلال ساعة"
 }
