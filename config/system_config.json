@@ -1,0 +1,6 @@
+{
+  "update_check_interval": 300,
+  "control_server_url": "https://raw.githubusercontent.com/your-username/water-filter-system/main/control.json",
+  "max_employees_per_license": 10,
+  "license_expiry_days": 365
+}
