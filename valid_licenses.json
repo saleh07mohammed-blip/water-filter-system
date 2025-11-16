@@ -1,18 +1,8 @@
-class LicenseActivationWindow:
-    def __init__(self):
-        self.root = tk.Tk()
-        self.root.title("تفعيل الترخيص - نظام إدارة فلاتر المياه")
-        self.root.geometry("400x300")
-        self.root.resizable(False, False)
-        
-        # منع الإغلاق عند الضغط على X
-        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
-        
-        self.license_system = LicenseSystem()
-        self.setup_ui()
-    
-    def on_close(self):
-        """عند محاولة إغلاق النافذة"""
-        if messagebox.askokcancel("خروج", "هل تريد إغلاق البرنامج؟"):
-            self.root.destroy()
-            sys.exit(0)
+{
+  "MGR-001-2024": {
+    "type": "manager",
+    "company": "شركة تجريبية",
+    "expiry_date": "2024-12-31",
+    "max_employees": 3
+  }
+}
