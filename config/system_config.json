@@ -1,6 +1,6 @@
 {
-  "github_repo": "your-username/water-filter-system",
-  "control_file_url": "https://raw.githubusercontent.com/your-username/water-filter-system/main/control.json", 
+  "github_repo": "JD_BOY/water-filter-system",
+  "control_file_url": "https://raw.githubusercontent.com/JD_BOY/water-filter-system/main/control.json",
   "update_check_interval": 300,
   "license_check_interval": 600
 }
